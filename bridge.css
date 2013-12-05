@@ -41,8 +41,21 @@ body {
     text-shadow: 1px 1px 20px rgba( 255, 255, 255, 0.4 );
     -webkit-transform-origin: 50% 20px 100px;
 }
+.github-logo {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.5;
+    top: 20px;
+    left: 20px;
+    background-image: url(github.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
 .pubnub-logo,
 .pubnub-logo-glow {
+    cursor: pointer;
     position: absolute;
     top: 40px;
     right: 40px;
