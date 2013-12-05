@@ -1,0 +1,69 @@
+<!doctype html>
+<!-- @stephenlb and @pubnub -->
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>PubNub Bridge - Real-time Critical Dashboard</title>
+    <link rel=stylesheet href=bridge.css>
+    <link rel=stylesheet href=fonts/icomoon.css>
+    <meta name=viewport content=width=1200>
+</head>
+<body class=pubnub-body>
+<div class=pubnub-logo-glow></div>
+<div class=pubnub-logo></div>
+<div class=pubnub-margin-top></div>
+<div class=pubnub-meter-container>
+    <div class=light-glow></div>
+
+    <!-- METER BARS -->
+    <div class="pubnub-meter dropin1">
+        <div class="icon-earth pubnub-meter-icon dropin6"></div>
+        <div class=pubnub-meter-reflect>
+            <div class=pubnub-meter-base></div>
+            <div class=pubnub-meter-bar-back></div>
+            <div class="pubnub-meter-bar mbootup4" id=pbm1></div>
+            <div class=pubnub-meter-bar-grid></div>
+        </div>
+    </div>
+    <div class="pubnub-meter dropin2">
+        <div class="icon-database pubnub-meter-icon dropin7"></div>
+        <div class=pubnub-meter-reflect>
+            <div class=pubnub-meter-base></div>
+            <div class=pubnub-meter-bar-back></div>
+            <div class="pubnub-meter-bar mbootup3" id=pbm2></div>
+            <div class=pubnub-meter-bar-grid></div>
+        </div>
+    </div>
+    <div class="pubnub-meter dropin3">
+        <div class="icon-users pubnub-meter-icon dropin8"></div>
+        <div class=pubnub-meter-reflect>
+            <div class=pubnub-meter-base></div>
+            <div class=pubnub-meter-bar-back></div>
+            <div class="pubnub-meter-bar mbootup2" id=pbm3></div>
+            <div class=pubnub-meter-bar-grid></div>
+        </div>
+    </div>
+    <div class="pubnub-meter dropin4">
+        <div class="icon-tree pubnub-meter-icon dropin9"></div>
+        <div class=pubnub-meter-reflect>
+            <div class=pubnub-meter-base></div>
+            <div class=pubnub-meter-bar-back></div>
+            <div class="pubnub-meter-bar mbootup1" id=pbm4></div>
+            <div class=pubnub-meter-bar-grid></div>
+        </div>
+    </div>
+    <div class="pubnub-meter dropin5">
+        <div class="icon-history pubnub-meter-icon dropin10"></div>
+        <div class=pubnub-meter-reflect>
+            <div class=pubnub-meter-base></div>
+            <div class=pubnub-meter-bar-back></div>
+            <div class="pubnub-meter-bar mbootup5" id=pbm5></div>
+            <div class=pubnub-meter-bar-grid></div>
+        </div>
+    </div>
+</div>
+<div class=pubnub-status id=pubnub-status>Welcome.</div>
+<script src=bridge.js></script>
+<script src=index.js></script>
+</body>
+</html>
